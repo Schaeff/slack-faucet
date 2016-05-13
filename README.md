@@ -20,7 +20,7 @@ La configuration du node se fait dans `config.js`
 	sum: 1,
 	sender: ""
 }
-``
+```
 
 ## Lancement
 
