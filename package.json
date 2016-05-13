@@ -1,0 +1,17 @@
+{
+  "name": "faucet-bot",
+  "version": "1.0.0",
+  "description": "A slack faucet bot",
+  "main": "main.js",
+  "dependencies": {
+    "botkit": "^0.1.1",
+    "nodemon": "^1.9.2",
+    "web3": "^0.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Schaeff",
+  "license": "ISC"
+}
