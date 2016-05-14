@@ -36,7 +36,8 @@ controller.hears(['rince moi'], ['direct_mention'], function(bot, message) {
     bot.reply(message, "Ok j'essaie de balancer " + config.sum + " ether frère.")
     web3.eth.sendTransaction({from: sender, to: address, value: web3.toWei(config.sum, 'wei')}, function(err, res) {
         if(err) {
-            return bot.reply(message, "Belek ça marche pas frère")
+            console.log(err)
+            return bot.reply(message, "Belek ça marche pas frère" + err)
         }
         return bot.reply(message, "De rien frère! :moneybag:")
     })
