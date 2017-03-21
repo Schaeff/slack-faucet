@@ -6,7 +6,10 @@ Un bot qui rince.
 
 ```
 npm install
+cp .env.dist .env
 ```
+
+Remplir `.env` avec les paramètres qui vont bien!
 
 ## Lancement
 
